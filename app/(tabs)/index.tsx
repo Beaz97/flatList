@@ -232,34 +232,69 @@ const categorias = [
         titulo: "Jurassic World: Dominion",
         cor: "#002b36",
         image:
-          "b4641a14cc041b6edb514f.jpg",
+          "https://tse2.mm.bing.net/th/id/OIP.fgkbTD_rRtbMyAsy6jzAlAHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      },
+      {
+        id: "4g",
+        titulo: "Jurassic World Rebirth",
+        cor: "#002b36",
+        image:
+          "https://www.dvdsreleasedates.com/posters/800/J/Jurassic-World-Rebirth-2025-movie-poster.jpg",
       },
     ],
   },
   {
     id: "5",
-    titulo: "Terror",
+    titulo: "Mission: Impossible Series",
     filmes: [
       {
         id: "5a",
-        titulo: "Hereditary",
+        titulo: "Mission: Impossible",
         cor: "#200122",
         image:
-          "https://i.pinimg.com/736x/af/23/4c/af234ca2d6b4641a14cc041b6edb514f.jpg",
+          "https://m.media-amazon.com/images/M/MV5BOGZjNDlkMTYtMTJkZi00OTkzLWI4NDEtYTA2ODQyMjcwYTdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       },
       {
         id: "5b",
-        titulo: "Midsommar",
+        titulo: "Mission: Impossible II",
         cor: "#190a05",
         image:
-          "https://i.pinimg.com/736x/af/23/4c/af234ca2d6b4641a14cc041b6edb514f.jpg",
+          "https://m.media-amazon.com/images/M/MV5BZmYzMWNjOTItNDQ5Zi00ZjRhLThhNGUtZTA3MjVlNTBhYWQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
       },
       {
         id: "5c",
-        titulo: "Get Out",
+        titulo: "Mission: Impossible III",
         cor: "#0a0a0a",
         image:
-          "https://i.pinimg.com/736x/af/23/4c/af234ca2d6b4641a14cc041b6edb514f.jpg",
+          "https://th.bing.com/th/id/R.eb32f93fb9aa68edd90b15353d1c7b4b?rik=ZudBupkD4zgxLA&riu=http%3a%2f%2fwww.impawards.com%2f2006%2fposters%2fmission_impossible_iii_ver3_xlg.jpg&ehk=RY50jkBF4%2f%2bGjk7paKeCHcMJLvW%2b1zBf4OyixcGwsUs%3d&risl=&pid=ImgRaw&r=0",
+      },
+       {
+        id: "5d",
+        titulo: "Mission: Impossible - Ghost Protocol",
+        cor: "#0a0a0a",
+        image:
+          "https://tse4.mm.bing.net/th/id/OIP.ZxfnYjsatxbG1rlCAVk1oAHaLk?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      },
+      {
+        id: "5e",
+        titulo: "Mission: Impossible - Rogue Nation",
+        cor: "#0a0a0a",
+        image:
+          "https://image.tmdb.org/t/p/original/sGvcWcI99OTXLzghD7qXw00KaY5.jpg",
+      },
+      {
+        id: "5f",
+        titulo: "Mission: Impossible - Fallout",
+        cor: "#0a0a0a",
+        image:
+          "https://tse4.mm.bing.net/th/id/OIP.ix1hg1H9IBe3Vpr-o52HpgHaK5?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      },
+      {
+        id: "5g",
+        titulo: "Mission: Impossible - Dead Reckoning",
+        cor: "#0a0a0a",
+        image:
+          "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/05/mission-impossible-dead-reckoning-poster.jpg",
       },
     ],
   },
