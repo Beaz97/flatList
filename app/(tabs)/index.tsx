@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "expo-router";
 import {
   View,
   Text,
@@ -326,6 +327,9 @@ function renderCategoria({ item }: { item: any }) {
         // showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: 40 }}
         renderItem={({ item }) => (
+          
+          
+          <Link href="/filme">
           <ImageBackground
             source={{ uri: item.image }}
             style={styles.cardFilme}
@@ -337,6 +341,9 @@ function renderCategoria({ item }: { item: any }) {
               </Text>
             </View>
           </ImageBackground>
+          </Link>
+
+
         )}
       />
 
