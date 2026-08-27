@@ -17,7 +17,7 @@ const categorias = [
         titulo: "Spider-man: Brand New Day",
         cor: "#1a1a2e",
         image:
-          "https://i.pinimg.com/736x/b6/05/0e/b6050ef2d569681460a68a15c82ead4d.jpg",
+          "https://cdn.marvel.com/content/2x/smbnd_online_1400x2100_hoodie_02.jpg",
       },
       {
         id: "1b",
@@ -184,7 +184,7 @@ const categorias = [
         titulo: "Spider-man: Brand New Day",
         cor: "#1a1a2e",
         image:
-          "https://i.pinimg.com/736x/b6/05/0e/b6050ef2d569681460a68a15c82ead4d.jpg",
+          "https://cdn.marvel.com/content/2x/smbnd_online_1400x2100_hoodie_02.jpg",
       },
     ],
   },

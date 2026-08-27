@@ -4,39 +4,42 @@ import {
   Text,
   View,
   ScrollView,
+  ImageBackground,
 } from "react-native";
 
 export default function Netflix() {
   return (
     <View style={styles.container}>
       <ScrollView>
-
         <View style={styles.header}>
           <Text style={styles.logo}>N</Text>
         </View>
 
-        <View style={styles.capa}>
-          <Text style={styles.capaTitulo}>
-            BARBIE
-          </Text>
-
-          <Text style={styles.capaSubtitulo}>
-            2023
-          </Text>
-        </View>
+        <ImageBackground
+          source={{
+            uri: "https://wallpaperaccess.com/full/2475837.jpg",
+          }}
+          style={styles.capa}
+          resizeMode="cover"
+        >
+          <View style={styles.sombra}>
+            <Text style={styles.capaTitulo}>
+              Spider-man: Brand New Day
+            </Text>
+          </View>
+        </ImageBackground>
 
         <View style={styles.informacoes}>
-
           <Text style={styles.titulo}>
-            Barbie
+            Spider-man: Brand New Day
           </Text>
 
           <Text style={styles.dados}>
-            2023 • 12 anos • 1h 54min
+            2026 • 12 anos • 2h 25min
           </Text>
 
           <Text style={styles.generos}>
-            Comédia • Fantasia • Aventura
+            Aventura • Ação • Fantasia • Ficção Científica
           </Text>
 
           <View style={styles.botaoAssistir}>
@@ -46,30 +49,31 @@ export default function Netflix() {
           </View>
 
           <Text style={styles.tituloResumo}>
-            Barbie
+            Spider-man: Brand New Day
           </Text>
 
           <Text style={styles.resumo}>
-            Barbie vive uma vida perfeita na Barbieland, onde todos
-            os dias são cheios de diversão. Porém, quando ela começa
-            a enfrentar situações inesperadas, decide viajar para o
-            mundo real em busca de respostas.
+            Homem-Aranha: Um Novo Dia explora a vida de Peter Parker após os
+            acontecimentos de Homem-Aranha: Sem Volta Para Casa. Vivendo em
+            Nova York depois que sua identidade foi apagada da memória de
+            todos, o amigão da vizinhança tenta seguir em frente anonimamente
+            enquanto concilia a rotina universitária com a missão de proteger
+            a cidade como super-herói.
           </Text>
 
           <Text style={styles.detalhes}>
-            Direção: Greta Gerwig
+            Direção: Destin Daniel Cretton
           </Text>
 
           <Text style={styles.detalhes}>
-            Elenco: Margot Robbie, Ryan Gosling e America Ferrera
+            Elenco: Tom Holland, Zendaya, Sadie Sink, Jacob Batalon, Jon
+            Bernthal, Florence Pugh, Tramell Tillman, Marisa Tomei, Mark Ruffalo
           </Text>
 
           <Text style={styles.detalhes}>
             Classificação: 12 anos
           </Text>
-
         </View>
-
       </ScrollView>
     </View>
   );
@@ -84,6 +88,7 @@ const styles = StyleSheet.create({
   header: {
     paddingHorizontal: 16,
     paddingVertical: 12,
+    backgroundColor: "#141414",
   },
 
   logo: {
@@ -96,23 +101,24 @@ const styles = StyleSheet.create({
   capa: {
     width: "100%",
     height: 380,
-    backgroundColor: "#0f3460",
     justifyContent: "flex-end",
-    alignItems: "center",
+  },
+
+  sombra: {
+    width: "100%",
+    paddingTop: 100,
     paddingBottom: 30,
+    paddingHorizontal: 15,
+    alignItems: "center",
+    backgroundColor: "rgba(0, 0, 0, 0.35)",
   },
 
   capaTitulo: {
     color: "#fff",
-    fontSize: 55,
+    fontSize: 40,
     fontWeight: "900",
-    letterSpacing: 4,
-  },
-
-  capaSubtitulo: {
-    color: "#fff",
-    fontSize: 16,
-    marginTop: 5,
+    letterSpacing: 2,
+    textAlign: "center",
   },
 
   informacoes: {
