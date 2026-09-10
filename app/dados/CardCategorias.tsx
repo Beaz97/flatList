@@ -16,7 +16,7 @@ export default function renderCategoria({ item }: { item: any }) {
         renderItem={({ item }) => (
           
           
-          <Link href="/filme">
+          <Link href={`/dados/filme/${item.id}`}>
           <ImageBackground
             source={{ uri: item.image }}
             style={styles.cardFilme}
