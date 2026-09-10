@@ -1,4 +1,4 @@
-import { View, Text, FlatList, ImageBackground } from "react-native";
+import { View, Text, FlatList, ImageBackground, StyleSheet } from "react-native";
 import { Link } from "expo-router";
 export default function renderCategoria({ item }: { item: any }) {
   return (

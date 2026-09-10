@@ -1,7 +1,7 @@
 import React from "react";
 
 import { View, Text, StyleSheet, FlatList, ImageBackground } from "react-native";
-import DadosDoFilme from '../dados/dadosdofilme'
+import DadosDoFilme from '../dados/DadosDoFilme'
 import renderCategoria from '../dados/CardCategorias'
 const categorias = DadosDoFilme();
 
@@ -17,3 +17,10 @@ export default function App() {
   );
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#111",
+    paddingTop: 20,
+  }
+})
